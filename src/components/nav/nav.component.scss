@@ -1,0 +1,22 @@
+.sa-nav{
+    display: flex;
+    .sa-link{
+        padding: 10px;
+        color: rgb(53, 52, 52);
+        text-decoration: none ;
+        cursor: pointer;
+
+        
+        margin: 2px;
+        &:hover,&.active{
+            color: black;
+            border-bottom: 1px solid #000;
+            background-color: rgb(235, 234, 233);
+            border-radius: 5px 5px  0 0  ;
+
+        }
+        &.active{
+            cursor: pointer;
+        }
+    }
+}

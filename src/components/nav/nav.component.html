@@ -1,0 +1,9 @@
+<div class="container">
+
+  <div class="sa-nav">
+    <a routerLink="home"  class="sa-link "[routerLinkActive]="'active'">home</a>
+    <a  routerLink="login" class="sa-link" [routerLinkActive]="'active'">login</a>
+    <a  routerLink="private" class="sa-link" [routerLinkActive]="'active'">private</a>
+    <a class="sa-link" (click)="logout()">logout</a>
+  </div>
+</div>
